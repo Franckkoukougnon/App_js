@@ -10,7 +10,7 @@ connectDB();
 // assignation a la variable
 const app = express();
 
-// utilisation de s middleware
+// utilisation des middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
